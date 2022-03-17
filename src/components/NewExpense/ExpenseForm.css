@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+.new-expense__controls {
+  display: grid;
+}
+
+.new-expense_control {
+  display: flex;
+  margin: 10px;
+  color: black;
+  font-family: 'League Gothic', sans-serif;
+  font-size: 22px;
+}
+
+.new-expense_control label {
+  display: flex;
+  width: 75px;
+  margin: 0;
+  margin-right: 40px;
+}
+
+.new-expense__actions {
+  display: flex;
+  margin: auto;
+  justify-content: right;
+  width: 252px;
+}
+
+.new-expense__actions button {
+  background-color: black;
+  border: 2px solid #555555;
+  border: none;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 30px;
+  font-size: 20px;
+}
+
+.new-expense__actions button:hover {
+  background-color: white;
+  color: black;
+}
